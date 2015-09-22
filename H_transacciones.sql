@@ -42,3 +42,9 @@ SAVE TRANSACTION cambiaporcentaje
 
 ROLLBACK TRANSACTION cambiaporcentaje
 COMMIT TRANSACTION modificaderechos
+
+
+
+BORRAR PL SI EXISTE
+if OBJECT_ID('final14') is not null
+	print 'hola'
